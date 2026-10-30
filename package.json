@@ -1,0 +1,16 @@
+{
+  "name": "nps-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Coleta de NPS por WhatsApp: formulario web dispara a pergunta, o bot le a nota e responde conforme a faixa.",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "keywords": ["whatsapp", "nps", "express", "bot", "automation"],
+  "author": "Victor Hugo Coriolano",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "engines": { "node": ">=18" }
+}
